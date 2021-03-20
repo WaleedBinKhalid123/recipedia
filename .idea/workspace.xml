@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44ac99de-0e91-4d68-b5d9-aedbbe9b206d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/css/animate.css/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/jquery.mCustomScrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/morris.js/css/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icon/icofont/css/icofont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icon/icofont/fonts/icofont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icon/icofont/fonts/icofont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icon/icofont/fonts/icofont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icon/icofont/fonts/icofont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icon/themify-icons/fonts/themify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icon/themify-icons/fonts/themify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icon/themify-icons/fonts/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icon/themify-icons/fonts/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icon/themify-icons/themify-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/auth/Logo-small-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/auth/logo-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/auth/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/avatar-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/avatar-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/avatar-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/avatar-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/ENGLISH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/FRANCE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/PORTO.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/SPAIN.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/mega-menu/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/mega-menu/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/mega-menu/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/mega-menu/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/mega-menu/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/mega-menu/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/pattern2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/SmoothScroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/bootstrap-growl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/classie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/classie/classie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/common-pages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/demo-12.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery-slimscroll/jquery.slimscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery-ui/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.mousewheel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/modernizr/css-scrollbars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/modernizr/modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/morris.js/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/pcoded.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/popper.js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/raphael/raphael.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/script.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/accordion/accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/accordion/accordion.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/chart/morris/morris-custom-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/dashboard/amchart/css/amchart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/dashboard/amchart/css/export.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/dashboard/amchart/js/amcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/dashboard/amchart/js/custom-amchart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/dashboard/amchart/js/export.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/dashboard/amchart/js/images/dragIconRoundBig.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/dashboard/amchart/js/images/dragIconRoundBigH.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/dashboard/amchart/js/light.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/dashboard/amchart/js/serial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/dashboard/custom-dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/google-maps/gmaps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/google-maps/jquery.gmaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/icon-modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/notification/notification.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/notification/notification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/todo/todo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/widget/amchart/amcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/widget/amchart/amcharts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/widget/amchart/ammap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/widget/amchart/ammap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/widget/amchart/continentsLow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/widget/amchart/continentsLow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/widget/amchart/gauge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/widget/amchart/gauge.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/widget/amchart/light.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/widget/amchart/light.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/widget/amchart/pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/widget/amchart/pie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/widget/amchart/serial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/widget/amchart/serial.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/widget/amchart/worldLow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pages/widget/amchart/worldLow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/add_ingredient.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dish.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pantry.blade.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1pUTpKY06D4dImtMUmgmF0TFh6L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\mr_dish\public" />
+      <recent name="E:\xampp\htdocs\mr_dish\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\mr_dish\public" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44ac99de-0e91-4d68-b5d9-aedbbe9b206d" name="Default Changelist" comment="" />
+      <created>1615236857596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615236857596</updated>
+      <workItem from="1615236861497" duration="2696000" />
+      <workItem from="1615277573103" duration="64000" />
+      <workItem from="1615379014968" duration="443000" />
+      <workItem from="1615758774573" duration="5270000" />
+      <workItem from="1615796900070" duration="63000" />
+      <workItem from="1615922733535" duration="13853000" />
+      <workItem from="1616015501790" duration="14321000" />
+      <workItem from="1616096985064" duration="11173000" />
+      <workItem from="1616131195187" duration="2816000" />
+      <workItem from="1616155326319" duration="634000" />
+      <workItem from="1616224884380" duration="2845000" />
+      <workItem from="1616228074240" duration="6700000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1616100997180">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1616100997180" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1616098571078">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616098571078" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1616105797892">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1616105797892" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1616229274357">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1616229274357" />
+  </component>
+</project>
