@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Dish;
 use App\Models\Dish_Ingredient;
+use App\Models\Image;
 use App\Models\Ingredient;
 use App\Models\MyIngredient;
 use App\Models\User;
@@ -41,6 +42,7 @@ class DishController extends Controller
             $dishes = Dish::all();
             foreach ($dishes as $dish)
             {
+                $image = Image::where('dish_id', $dish->id)->first();
                 $ingredientIds = Dish_Ingredient::where('dish_id', $dish->id)->get();
                 $ingredients = $this->getIngredients($ingredientIds);
                 $ingredientCount = count($ingredients);
@@ -48,15 +50,15 @@ class DishController extends Controller
                 if($matchedCount != 0) {
                     $percentage = (($matchedCount / $ingredientCount) * 100);
                     if ($percentage > 80 && $percentage <= 100) {
-                        array_push($hundredPercent, ['name' => $dish->name, 'status' => 'fully']);
+                        array_push($hundredPercent, ['name' => $dish->name, 'status' => 'fully', 'path' => $image->path]);
                     } else if ($percentage > 60 && $percentage <= 80) {
-                        array_push($eightyPercent, ['name' => $dish->name, 'status' => 'Almost']);
+                        array_push($eightyPercent, ['name' => $dish->name, 'status' => 'Almost', 'path' => $image->path]);
                     } else if ($percentage > 40 && $percentage <= 60) {
-                        array_push($sixtyPercent, ['name' => $dish->name, 'status' => 'Mediocre']);
+                        array_push($sixtyPercent, ['name' => $dish->name, 'status' => 'Mediocre', 'path' => $image->path]);
                     } else if ($percentage > 20 && $percentage <= 40) {
-                        array_push($fortyPercent, ['name' => $dish->name, 'status' => 'Fairly']);
+                        array_push($fortyPercent, ['name' => $dish->name, 'status' => 'Fairly', 'path' => $image->path]);
                     } else if ($percentage > 0 && $percentage <= 20) {
-                        array_push($twentyPercent, ['name' => $dish->name, 'status' => 'Least']);
+                        array_push($twentyPercent, ['name' => $dish->name, 'status' => 'Least', 'path' => $image->path]);
                     }
                 }
             }
@@ -132,6 +134,7 @@ class DishController extends Controller
 
     public function selectDish($name)
     {
+        $flag = false;
         $dish_name = strtolower($name);
         $dish = Dish::where('name', $dish_name)->first();
 
@@ -150,21 +153,25 @@ class DishController extends Controller
                     $pantry = DB::table('my_ingredients')->where(['user_id' => Auth::id(), 'name' => strtolower($ingredient) ])->first();
                     if($pantry != null )
                     {
+                        $flag = true;
                         DB::table('my_ingredients')->where(['id' => $pantry->id])->update(['quantity' => ($pantry->quantity - $ingredientId->quantity)]);
                     }
                 }
             }
         }
         $myIngredients = MyIngredient::all();
-        return view(self::MY_PANTRY_PAGE)->with(['myIngredients' => $myIngredients, 'msg' => 'Your Ingredients Left']);
+        if($flag == true)
+            return view(self::MY_PANTRY_PAGE)->with(['myIngredients' => $myIngredients, 'msg' => 'Your Ingredients Left']);
+        return view(self::MY_PANTRY_PAGE)->with(['myIngredients' => $myIngredients, 'msg' => 'Your pantry is empty or you dont have ingredient in you pantry. Add Ingredients first.']);
     }
 
     public function showDish($name)
     {
         $dish = Dish::where('name', strtolower($name))->first();
+        $image = Image::where('dish_id', $dish->id)->first();
         $ingredientIds = Dish_Ingredient::where('dish_id', $dish->id)->get();
         $ingredients = $this->getIngredients($ingredientIds);
-        return view(self::DISH_SHOW_PAGE)->with(['dish' => $dish, 'ingredientIds' => $ingredientIds]);
+        return view(self::DISH_SHOW_PAGE)->with(['dish' => $dish, 'ingredientIds' => $ingredientIds, 'image' => $image]);
     }
 
     public function backToDish()
@@ -186,6 +193,7 @@ class DishController extends Controller
         $dishes = Dish::all();
         foreach ($dishes as $dish)
         {
+            $image = Image::where('dish_id', $dish->id)->first();
             $ingredientIds = Dish_Ingredient::where('dish_id', $dish->id)->get();
             $ingredients = $this->getIngredients($ingredientIds);
             $ingredientCount = count($ingredients);
@@ -193,15 +201,15 @@ class DishController extends Controller
             if($matchedCount != 0) {
                 $percentage = (($matchedCount / $ingredientCount) * 100);
                 if ($percentage > 80 && $percentage <= 100) {
-                    array_push($hundredPercent, ['name' => $dish->name, 'status' => 'fully']);
+                    array_push($hundredPercent, ['name' => $dish->name, 'status' => 'fully', 'path' => $image->path]);
                 } else if ($percentage > 60 && $percentage <= 80) {
-                    array_push($eightyPercent, ['name' => $dish->name, 'status' => 'Almost']);
+                    array_push($eightyPercent, ['name' => $dish->name, 'status' => 'Almost', 'path' => $image->path]);
                 } else if ($percentage > 40 && $percentage <= 60) {
-                    array_push($sixtyPercent, ['name' => $dish->name, 'status' => 'Mediocre']);
+                    array_push($sixtyPercent, ['name' => $dish->name, 'status' => 'Mediocre', 'path' => $image->path]);
                 } else if ($percentage > 20 && $percentage <= 40) {
-                    array_push($fortyPercent, ['name' => $dish->name, 'status' => 'Fairly']);
+                    array_push($fortyPercent, ['name' => $dish->name, 'status' => 'Fairly', 'path' => $image->path]);
                 } else if ($percentage > 0 && $percentage <= 20) {
-                    array_push($twentyPercent, ['name' => $dish->name, 'status' => 'Least']);
+                    array_push($twentyPercent, ['name' => $dish->name, 'status' => 'Least', 'path' => $image->path]);
                 }
             }
         }

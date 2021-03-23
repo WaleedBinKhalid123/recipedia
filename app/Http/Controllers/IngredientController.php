@@ -55,35 +55,3 @@ class IngredientController extends Controller
     }
 }
 
-//$collection = [];
-//foreach ($warehouses as $key => $warehouse)
-//{
-//    $data = [
-//        'warehouse_id' => $warehouse->warehouseID,
-//        'code' => $warehouse->warehouseCode,
-//        'name' => $warehouse->warehouseName,
-//        'status' => $warehouse->status,
-//        'address1' => $warehouse->address1,
-//        'address2' => $warehouse->address2,
-//        'address3' => $warehouse->address3,
-//        'city' => $warehouse->city,
-//        'state' => $warehouse->state,
-//        'zip_code' => $warehouse->zipCode,
-//        'country_id' => $warehouse->countryID,
-//        'country_code' => $warehouse->countryCode,
-//        'country_name' => $warehouse->countryName,
-//        'phone' => $warehouse->phone,
-//        'email' => $warehouse->email,
-//        'created_at' => now(),
-//        'updated_at' => now()
-//    ];
-//
-//    $validate = Validator::make($data, [
-//        'name' => 'unique:aims360_warehouses'
-//    ]);
-//
-//    if(!$validate->fails())
-//        array_push($collection, $data);
-//
-//}
-//return $this->_aims360WarehouseRepo->insert($collection);
